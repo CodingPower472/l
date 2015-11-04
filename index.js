@@ -4,8 +4,13 @@
 
 let fs = require('fs');
 let chalk = require('chalk');
+let yargs = require('yargs');
 
-fs.readdir(__dirname, (err, files) => {
+let argv = yargs.argv;
+
+let dir = argv._[0];
+
+fs.readdir(dir, (err, files) => {
   files.forEach(file => {
     if (file.charAt(0) === '.') return;
     fs.stat(file, (err, stats) => {
