@@ -1,8 +1,8 @@
 {
-  "name": "l",
+  "name": "l-program",
   "description": "Lists contents of current directory",
   "version": "1.0.0",
-  "main": "README.md",
+  "main": "index.js",
   "repository": "CodingPower472/l",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
