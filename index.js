@@ -13,7 +13,7 @@ let dir = argv._[0];
 fs.readdir(dir, (err, files) => {
   files.forEach(file => {
     if (file.charAt(0) === '.') return;
-    fs.stat(file, (err, stats) => {
+    fs.stat(dir + file, (err, stats) => {
       if (err) throw new Error(err);
       if (stats.isFile()) {
         console.log(chalk.green(file));
