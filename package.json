@@ -1,7 +1,7 @@
 {
   "name": "l-program",
   "description": "Lists contents of current directory",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "CodingPower472/l",
   "scripts": {
