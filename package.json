@@ -1,0 +1,19 @@
+{
+  "name": "l",
+  "description": "Lists contents of current directory",
+  "version": "1.0.0",
+  "main": "README.md",
+  "repository": "CodingPower472/l",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Bousfield",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "l": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1"
+  }
+}
