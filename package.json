@@ -1,7 +1,7 @@
 {
   "name": "l-program",
   "description": "Lists contents of current directory",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "main": "index.js",
   "repository": "CodingPower472/l",
   "scripts": {
@@ -11,7 +11,7 @@
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "l": "index.js"
+    "lprg": "index.js"
   },
   "dependencies": {
     "chalk": "^1.1.1"
